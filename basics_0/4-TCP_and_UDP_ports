@@ -1,4 +1,2 @@
-#!/bin/bash
-# Script that displays listening ports with PID and program name
-
+#!/usr/bin/env bash
 sudo ss -tulnp | grep LISTEN
