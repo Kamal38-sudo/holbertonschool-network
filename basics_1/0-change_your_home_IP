@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # 0-change_your_home_IP
 # Script to change localhost and facebook.com resolution
 
