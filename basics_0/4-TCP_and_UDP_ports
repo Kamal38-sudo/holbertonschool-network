@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
-#Salam
+# Displays listening ports with PID and program name
+
 netstat -tulnp
+
