@@ -2,4 +2,4 @@
 # 1-show_attached_IPs
 # Script to display all active IPv4 addresses on the machine
 
-ifconfig | awk '{print $2}'
+ifconfig | grep 'inet ' | awk '{print $2}'
