@@ -5,5 +5,5 @@ if [ -z "$1" ]; then
     exit 1
 fi
 
-ping -c 5 8.8.4.4 | grep -v received | awk {'''print $1,$2,$3,$5'''}
+ping -c 5 "$1"
 
